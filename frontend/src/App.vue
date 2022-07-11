@@ -5,6 +5,20 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png"/>
   <HelloWorld/>
+
+
+    <audio id="my-audio">
+      <source src="./assets/audio/final.mp3" type="audio/mpeg"/>
+    </audio>
+
+    <br/>
+    <br/>
+
+    <button style="padding: 3px; border-radius: 4px; font-size:2em" id="play-audio" onclick="document.getElementById('my-audio').play();">
+      <img src="./assets/images/voice.svg" alt="button"  height="25"/>
+      Test sound
+    </button>
+
 </template>
 
 <style>
