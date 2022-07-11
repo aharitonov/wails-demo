@@ -1,8 +1,8 @@
 # README
 
-## About
+ Desktop demo application based on official [Wails](https://wails.io) Vue template.
 
-This is the official Wails Vue template.
+ ***
 
 ## Live Development
 
